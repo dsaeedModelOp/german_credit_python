@@ -1,12 +1,7 @@
 {
-    "tags": [],
-    "name": "SHAP Explainer: Feature Importance",
-    "description": "Model to compute Feature Importance using SHAP Values",
-    "defaultAssociationRole": "PERFORMANCE_MODEL",
-    "frequentlyUsed": true,
     "custom": {
         "modelopPackageVersion": "0.13.0",
         "modelSomething": "jhingur",
-        "modelMoreJhingur" "123"
+        "modelMoreJhingur": "123"
     }
 }
