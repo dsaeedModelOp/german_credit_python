@@ -6,6 +6,7 @@
     "defaultAssociationRole": "PERFORMANCE_MODEL",
     "frequentlyUsed": true,
     "custom": {
-        "modelopPackageVersion": "0.13.0"
+        "modelopPackageVersion": "0.13.0",
+        "modelSomething": "jhingur"
     }
 }
