@@ -1,7 +1,7 @@
 {
     "custom": {
         "modelopPackageVersion": "0.13.0",
-        "modelSomething": "jhingur",
-        "modelMoreJhingur2": "123"
+        "modelSomething": "testSomething",
+        "modelSomethingElse": "TestSomethingElse"
     }
 }
