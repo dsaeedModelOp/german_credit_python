@@ -3,7 +3,8 @@
         "modelopPackageVersion": "0.13.0",
         "modelSomething": "testSomething",
         "modelSomethingElse": "TestSomethingElse",
-        "test":"test"
+        "MODEL_NAME":"test",
+        "MODEL_NAME2":"test"
         
     }
 }
