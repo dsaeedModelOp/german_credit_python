@@ -2,9 +2,7 @@
     "custom": {
         "modelopPackageVersion": "0.13.0",
         "modelSomething": "testSomething",
-        "modelSomethingElse": "TestSomethingElse",
-        "MODEL_NAME":"test",
-        "MODEL_NAME2":"test"
+        "modelSomethingElse": "TestSomethingElse"
         
     }
 }
