@@ -2,6 +2,7 @@
     "custom": {
         "modelopPackageVersion": "0.13.0",
         "MODEL_NAME": "TestSomethingElse",
+        "MODEL_NAME2": "Optional notification shouldnt be there"
         "Test":"test"
        
         
