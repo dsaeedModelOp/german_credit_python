@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:biodi="http://bpmn.io/schema/dmn/biodi/2.0" xmlns:camunda="http://camunda.org/schema/1.0/dmn" id="Always_Fail" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.0.0">
+  <decision id="radius_mean_ks_pvalue_Decision" name="radius_mean_ks_pvalue">
+    <decisionTable id="DecisionTable_04y1p3l" hitPolicy="COLLECT">
+      <input id="Input_1" label="radius_mean_ks_pvalue" camunda:inputVariable="radius_mean_ks_pvalue">
+        <inputExpression id="InputExpression_1" typeRef="double">
+          <text>radius_mean_ks_pvalue</text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" name="passes" typeRef="boolean" biodi:width="192" />
+      <output id="OutputClause_08utytt" name="reason" typeRef="string" />
+      <output id="OutputClause_062wozf" label="category" name="category" typeRef="string" />
+      <rule id="DecisionRule_1pf4fl1">
+        <inputEntry id="UnaryTests_1d8tzpu">
+          <text>&lt;0.05</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1qopg2r">
+          <text>false</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_1cfkx6f">
+          <text>"low pvalue"</text>
+        </outputEntry>
+        <outputEntry id="LiteralExpression_1hmofri">
+          <text>"DataDrift"</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="radius_mean_ks_pvalue_Decision">
+        <dc:Bounds height="80" width="180" x="160" y="100" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>
